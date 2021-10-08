@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.javatpoint.spring_boot_example_sts.AppTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.javatpoint.spring_boot_example_sts.AppTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/rahul/git_workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2529345045311375924.tmp"/>
+    <property name="classworlds.conf" value="/home/rahul/git_workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf15029931157345780486.tmp"/>
     <property name="jansi.force" value="true"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
@@ -55,5 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.javatpoint.spring_boot_example_sts.AppTest" name="testApp" time="0.007"/>
+  <testcase classname="com.javatpoint.spring_boot_example_sts.AppTest" name="testApp" time="0.005"/>
 </testsuite>

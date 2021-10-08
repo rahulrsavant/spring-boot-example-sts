@@ -6,6 +6,6 @@ public class SpringBootExampleSts
 {
 public static void main(String[] args)
 {  
-SpringApplication.run(SpringBootExampleSts.class, args);  
+SpringApplication.run(SpringBootExampleSts.class, args);
 } 
 }
