@@ -1,4 +1,4 @@
-package com.javatpoint.model;
+package com.vi.model;
 
 public class Maths {	
 	public int n1,n2,add;
