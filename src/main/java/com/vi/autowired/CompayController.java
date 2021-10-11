@@ -19,7 +19,7 @@ public class CompayController {
 	   
 	@GetMapping("/print_engine")	
 	public String printEngine() {
-		return car.getEngine().engineName;
+		return car.getEngine().getEngineName();
 	}
 	
 
