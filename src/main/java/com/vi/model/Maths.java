@@ -1,5 +1,5 @@
 package com.vi.model;
-
+//sneha
 public class Maths {	
 	public int n1,n2,add,sub;
 
