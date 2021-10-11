@@ -1,7 +1,7 @@
 package com.vi.model;
 
 public class Maths {	
-	public int n1,n2,add;
+	public int n1,n2,add,sub;
 
 	public int getN1() {
 		return n1;
@@ -26,5 +26,7 @@ public class Maths {
 	public void setAdd(int add) {
 		this.add = add;
 	}
+
+
 	
 }

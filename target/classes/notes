@@ -1,0 +1,64 @@
+@Autowired Annotations
+--------------------------------------------
+
+@Component
+public class FooService {  
+    @Autowired
+    private FooFormatter fooFormatter;
+}
+
+
+
+@Autowired on Setters
+----------------------------------------
+
+public class FooService {
+    private FooFormatter fooFormatter;
+    @Autowired
+    public void setFooFormatter(FooFormatter fooFormatter) {
+        this.fooFormatter = fooFormatter;
+    }
+}
+
+
+@Autowired on constructors
+----------------------------------------
+
+public class FooService {
+    private FooFormatter fooFormatter;
+    @Autowired
+    public FooService(FooFormatter fooFormatter) {
+        this.fooFormatter = fooFormatter;
+    }
+}
+
+
+
+Autowiring by @Qualifier
+-------------------------------------------------
+
+@Component("fooFormatter")
+public class FooFormatter {
+    public String format() {
+        return "foo";
+    }
+}
+
+@Component("fooFormatter")
+public class FooFormatter implements Formatter {
+    public String format() {
+        return "foo";
+    }
+}
+@Component("barFormatter")
+public class BarFormatter implements Formatter {
+    public String format() {
+        return "bar";
+    }
+}
+
+public class FooService {
+    @Autowired
+    @Qualifier("fooFormatter")
+    private Formatter formatter;
+}
