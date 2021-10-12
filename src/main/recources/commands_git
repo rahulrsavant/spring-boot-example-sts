@@ -1,0 +1,24 @@
+
+git status
+
+git init
+
+git add --a
+
+git commit -m "initial commit"  <-m don't show commit editor>
+
+git remot add origin ------
+
+git push origin
+
+----------------------------------- remote URL -----------------------------------------------
+
+git config --get remote.origin.url
+
+git remote set-url origin new-url
+
+--------------------------------------------------------------------------------------
+
+git log
+
+rm -rf .git  <remove repository as a git repo>
