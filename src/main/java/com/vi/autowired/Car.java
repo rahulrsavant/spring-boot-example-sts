@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class Car{
 
 	@Autowired
+	@Qualifier("engine115")
 	EngineInterface engine;
 
 	public EngineInterface getEngine() {
