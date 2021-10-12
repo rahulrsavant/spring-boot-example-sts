@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class CompayController {
 	
 	
-
-	private Car car=new Car();
+	@Autowired
+	private Car car;
 	   
 	@GetMapping("/print_engine")	
 	public String printEngine() {

@@ -2,20 +2,24 @@ package com.vi.autowired;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class Car{
 
 	@Autowired
-	@Qualifier("engine115")
-	Engine engine;
+	EngineInterface engine;
 
-	public Engine getEngine() {
+	public EngineInterface getEngine() {
 		return engine;
 	}
 
-	public void setEngine(Engine engine) {
+	public void setEngine(EngineInterface engine) {
 		this.engine = engine;
 	}
+
+
 	
 	
 

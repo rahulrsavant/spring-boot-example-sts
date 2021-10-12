@@ -1,5 +1,12 @@
 package com.vi.autowired;
 
-public interface Engine {
-	String getEngineName();
+import org.springframework.stereotype.Component;
+
+@Component
+public class Engine implements EngineInterface {
+
+	public String getEngineName() {
+		return "engine115";
+	}
+
 }
